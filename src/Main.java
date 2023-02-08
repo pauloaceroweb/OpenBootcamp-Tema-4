@@ -26,7 +26,7 @@ public class Main {
         int numeroWhile = 0;
         while (numeroWhile < 3) {
             numeroWhile++;
-            System.out.println(numeroWhile);
+            System.out.println("La variable ahora es: "+ numeroWhile);
         }
 
         //PUNTO No. 3 (Do while)
@@ -35,14 +35,14 @@ public class Main {
         int numeroDoWhile = 100;
         do {
             numeroDoWhile++;
-            System.out.println(numeroDoWhile);
+            System.out.println("La variable ahora es: " + numeroDoWhile);
         } while (numeroDoWhile < 3);
 
         //PUNTO No. 4 (For)
         System.out.println("********************************************");
         System.out.println("4. Sentencia de Control For");
         for (int numeroFor = 0; numeroFor <= 3; numeroFor++ ) {
-            System.out.println(numeroFor);
+            System.out.println("La variable ahora es: " + numeroFor);
         }
 
         //PUNTO No. 5 (Switch)
